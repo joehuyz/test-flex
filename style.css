@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.section-flex-test {
+  background-color: bisque;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.box {
+  padding-bottom: 40%;
+  position: relative;
+}
+
+.box-size {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+.flex {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.num {
+  position: absolute;
+}
+
+.x-flex {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  width: 100%;
+  top: 30%;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.x-line {
+  position: relative;
+}
+
+.bar {
+  height: 10px;
+  background-color: blueviolet
+}
+
+.flex-item::before {
+  content: "";
+  display: block;
+  background-color: red;
+  width: 2px;
+  height: 100%;
+}
+
+.sub {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+}
+
+.block {
+  padding-bottom: 40%;
+  margin-bottom: 10px;
+}
+
+.block-one {
+  background: linear-gradient(45deg, blue, red);
+}
+
+.block-two {
+  background: linear-gradient(0deg, blue, green 10%, red);
+}
+
+.block-three {
+  background: linear-gradient(to left top, rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.5));
+}
+
+.block-four {
+  background: linear-gradient(90deg, #76daff, yellow 50%, rgb(240, 51, 51));
+}
+
+.section-bg-gradient {
+  background: url(https://cdn.gogoro.com/resources/images/s-performance/s2/bullet_bike.png) center/cover no-repeat, linear-gradient(45deg, blue, red);
+  height: 50vh;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.section-bg-gradient__two {
+  background: url(desola.jpg) center/cover no-repeat;
+  height: 50vh;
+  position: relative;
+}
+
+.custom-bgcolor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left top, rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.5));
+}
